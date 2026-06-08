@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DuHu dashboard</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <link rel="stylesheet" href="css/style-main.css">
+    <link rel="stylesheet" href="css/style-index.css">
     <link rel="stylesheet" href="css/style-header.css">
 </head>
 
