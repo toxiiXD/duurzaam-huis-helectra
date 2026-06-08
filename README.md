@@ -1,6 +1,6 @@
 # duurzaam-huis-helectra
 **sudocollegemedia - Rosario**
 <br>
-**toxiiXD - damian woudman**
+**T0X11_XD - damian woudman**
 <br>
-**Blank - Blank**
+**M01Z4 - moiza**
