@@ -7,7 +7,7 @@ function updateGas() {
 
     const element = document.getElementById("gas-consumed");
     if (element) {
-        element.innerText = gas.toFixed(2) + " m³ verbruikt";
+        element.innerText = gas.toFixed(2) + "m³ verbruikt";
     }
 }
 
