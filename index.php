@@ -18,23 +18,14 @@
     <?php include_once 'header.php'; ?>
     <main class="container">
         <section class="spanne-item"><h3>tijdspanne</h3></section>
-        <section class="date-item">
-            <h3>date and time</h3>
-            <div id="clock-display">Loading...</div>
-        </section>
+        
+        <?php include_once 'date-time.php'; ?>
+
         <section class="light-item"><h3>buttons light</h3></section>
         <section class="item"><h3>gas</h3></section>
         <section class="item"><h3>water</h3></section>
-        <section class="item weer-item">
-            <h3>weer</h3>
-            <div id="weather-current" class="weather-current">
-                <div id="weather-location" class="weather-location">Amsterdam</div>
-                <div id="weather-now" class="weather-now">Loading...</div>
-                <div id="weather-summary" class="weather-summary"></div>
-                <div id="weather-details" class="weather-details"></div>
-            </div>
-            <div id="weather-forecast" class="weather-forecast"></div>
-        </section>
+            
+            <?php include_once 'weer.php'; ?>
         
             <?php include_once 'elektriciteit.php'; ?>
         
