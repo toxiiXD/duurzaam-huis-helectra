@@ -1,4 +1,4 @@
-﻿const API_URL = '/weer.php?city=amsterdam';
+const API_URL = '/weer.php?city=amsterdam';
 
 export const WEATHER_CODES = {
   0: 'Clear Sky', 1: 'Mainly Clear', 2: 'Partly Cloudy', 3: 'Overcast',
