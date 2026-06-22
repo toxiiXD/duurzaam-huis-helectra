@@ -35,10 +35,9 @@
             </div>
             <div id="weather-forecast" class="weather-forecast"></div>
         </section>
-        <section class="elec-item">
-            <h3>elektriciteit</h3>
-            <div id="energy-consumed">0.00 kWh verbruikt</div>
-        </section>
+        
+            <?php include_once 'elektriciteit.php'; ?>
+        
         <section class="zon-item"><h3>zonepanelen</h3></section>
         <section class="temp-item"><h3>temperatuur</h3></section>
     </main>

@@ -1,0 +1,9 @@
+.header{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    img {
+        width: 350px;
+        height: auto;
+    }
+}
