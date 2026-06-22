@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuHu dashboard</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="style sheets/index.css">
+    <link rel="stylesheet" href="style sheets/style-header.css">
+</head>
+
+<body>
+    <?php include_once 'header.php'; ?>
+    <main class="container">
+        <section class="spanne-item"><h3>tijdspanne</h3></section>
+        <section class="date-item"><h3>date and time</h3></section>
+        <section class="light-item"><h3>buttons light</h3></section>
+        <section class="item"><h3>gas</h3></section>
+        <section class="item"><h3>water</h3></section>
+        <section class="item weer-item">
+            <h3>weer</h3>
+            <div id="weather-current" class="weather-current">
+                <div id="weather-location" class="weather-location">Amsterdam</div>
+                <div id="weather-now" class="weather-now">Loading...</div>
+                <div id="weather-summary" class="weather-summary"></div>
+                <div id="weather-details" class="weather-details"></div>
+            </div>
+            <div id="weather-forecast" class="weather-forecast"></div>
+        </section>
+        <section class="elec-item"><h3>elektriciteit</h3></section>
+        <section class="zon-item"><h3>zonepanelen</h3></section>
+        <section class="temp-item"><h3>temperatuur</h3></section>
+    </main>
+    <?php include_once 'footer.php'; ?>
+</body>
+
+</html>
