@@ -9,6 +9,7 @@
     <title>DuHu dashboard</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="scriptcodes/elektriciteit.js"></script>
+    <script type="text/javascript" src="scriptcodes/klok.js"></script>
     <link rel="stylesheet" href="style sheets/index.css">
     <link rel="stylesheet" href="style sheets/style-header.css">
 </head>
@@ -17,7 +18,10 @@
     <?php include_once 'header.php'; ?>
     <main class="container">
         <section class="spanne-item"><h3>tijdspanne</h3></section>
-        <section class="date-item"><h3>date and time</h3></section>
+        <section class="date-item">
+            <h3>date and time</h3>
+            <div id="clock-display">Loading...</div>
+        </section>
         <section class="light-item"><h3>buttons light</h3></section>
         <section class="item"><h3>gas</h3></section>
         <section class="item"><h3>water</h3></section>
