@@ -40,6 +40,9 @@
             </div>
         </section>
         <section class="temp-item"><h3>temperatuur </h3></section>
+                    <div class="chart-card-temp">
+                <canvas id="temperatuurChart"></canvas>
+            </div>
     </main>
     <?php include_once 'footer.php'; ?>
 </body>
