@@ -39,7 +39,10 @@
                 <canvas id="zonnepanelenChart"></canvas>
             </div>
         </section>
-        <section class="temp-item"><h3>temperatuur </h3></section>
+        <section class="temp-item"><h3>temperatuur </h3>
+                <div class="chart-card">
+                <canvas id="temperatuurChart"></canvas>
+            </div></section>
     </main>
     <?php include_once 'footer.php'; ?>
 </body>
