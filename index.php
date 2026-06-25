@@ -13,6 +13,7 @@
     <script type="text/javascript" src="scriptcodes/gas.js"></script>
     <script type="text/javascript" src="scriptcodes/water.js"></script>
     <script type="text/javascript" src="scriptcodes/zonnepanelen.js" defer></script>
+    <script type="text/javascript" src="scriptcodes/temperatuur.js" defer></script>
     <link rel="stylesheet" href="style sheets/index.css">
     <link rel="stylesheet" href="style sheets/style-header.css">
 </head>
