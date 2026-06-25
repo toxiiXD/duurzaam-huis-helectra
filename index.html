@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DuHu dashboard</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
     <script type="text/javascript" src="scriptcodes/elektriciteit.js"></script>
     <script type="text/javascript" src="scriptcodes/gas.js"></script>
     <script type="text/javascript" src="scriptcodes/water.js"></script>
-    </script>
+    <script type="text/javascript" src="scriptcodes/zonnepanelen.js" defer></script>
     <link rel="stylesheet" href="style sheets/index.css">
     <link rel="stylesheet" href="style sheets/style-header.css">
 </head>
@@ -42,7 +43,12 @@
             <h3>elektriciteit</h3>
             <div id="energy-consumed">0.00 kWh verbruikt</div>
         </section>
-        <section class="zon-item"><h3>zonepanelen</h3></section>
+        <section class="zon-item">
+            <h3>zonepanelen</h3>
+            <div class="chart-card">
+                <canvas id="zonnepanelenChart"></canvas>
+            </div>
+        </section>
         <section class="temp-item"><h3>temperatuur</h3></section>
     </main>
     <?php include_once 'footer.php'; ?>

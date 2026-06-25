@@ -111,3 +111,16 @@ body{
     padding: 20px;
     border: 10px solid #000000;
 }
+
+.chart-card {
+    width: 100%;
+    max-width: 600px;
+    height: 260px;
+    margin-top: 15px;
+}
+
+.chart-card canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
